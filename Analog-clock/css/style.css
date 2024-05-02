@@ -37,8 +37,8 @@ body{
 
 }
 .clock span b{
-    transform:rotate(clock(-30deg * var(--i)));
-    display:inline-block;
+    transform:rotate(calc(-30deg * var(--i)));
+    display: inline-block;
     font-size: 20px;
 }
 .clock::before{
